@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pass Fast Driving School</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+.btn {
+  background: #FFD700;
+  color: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 32px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.cta-buttons a {
+  margin: 10px;
+  display: inline-block;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.pricing {
+  background: #f5f5f5;
+}
+
+.card {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.sticky-call {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background: #FFD700;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Pass Fast Driving</h1>
+  <a href="tel:07123456789" class="btn">Call Now</a>
+</header>
+
+<section class="hero">
+  <h2>Pass Your Driving Test FAST 🚗</h2>
+  <p>Book your first lesson within 24 hours</p>
+
+  <div class="cta-buttons">
+    <a href="tel:07123456789" class="btn">Call Now</a>
+    <a href="#booking" class="btn">Book Online</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Why Choose Us?</h2>
+  <p>✔ 80%+ Pass Rate</p>
+  <p>✔ Manchester Based Instructors</p>
+  <p>✔ Manual & Automatic Lessons</p>
+</section>
+
+<section class="section pricing">
+  <h2>Pricing</h2>
+
+  <div class="card">
+    <h3>Manual</h3>
+    <p>£33 / hour</p>
+  </div>
+
+  <div class="card">
+    <h3>Automatic</h3>
+    <p>£35 / hour</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Struggling to Pass?</h2>
+  <p>We help you gain confidence, get a test fast, and pass first time.</p>
+</section>
+
+<section class="section" id="booking">
+  <h2>Book Your Lesson</h2>
+  <p>Fill in your details and we’ll contact you ASAP.</p>
+
+  <form>
+    <input type="text" placeholder="Your Name" required><br><br>
+    <input type="tel" placeholder="Phone Number" required><br><br>
+    <button class="btn">Submit</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Pass Fast Driving School</p>
+</footer>
+
+<div class="sticky-call">
+  📞 Call Now: 07123 456789
+</div>
+
+</body>
+</html>
